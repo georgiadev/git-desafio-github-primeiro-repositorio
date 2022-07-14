@@ -1,0 +1,24 @@
+Comandos que mais foram usados durante a aula:
+dir: lista os diretórios
+tab: auto completa a linha/texto
+mkdir: cria pasta
+cd: navega para uma pasta
+echo: criar arquivo
+seta para cima: navega no historico que usei no terminal
+rmdir: remover diretorio
+cd ..: volta uma pasta
+ls: para listar arquivos
+clear: para limpar tela
+git status: para saber o status dos arquivos (para saber em qual estágio o arquivo se encontra)
+q: sai da tela
+git innit
+git add *
+git commit -m "Insira aqui a mensagem coerente com o trabalho"
+
+Observação importante:
+O git push master não estava funcionando, não aparecia nenhuma mensagem na tela, então foi resolvido substituindo o 'master' pelo 'main' usando os seguintes comandos em sequência:
+git branch -M main
+git remote add origin (aqui foi colado o link do repositorio do github - sem parenteses)
+git push -u origin main
+_______________________________________________________
+Para usar a linguagem Markdown durante as aulas, eu usei o VsCode.
